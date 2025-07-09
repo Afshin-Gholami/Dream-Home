@@ -1,0 +1,46 @@
+@import "./reset.css";
+@import "./grid.css";
+@import "./font.css";
+
+
+:root{
+
+}
+
+/* default Style  */
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: var(--font-poppins);
+}
+
+/* Components */
+
+
+
+/* Reset Style  */
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+
+/* Helper Class  */
+
+
+
+
+/* Header Style Start */
+
+
+/* Header Style finish */
