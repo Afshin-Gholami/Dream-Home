@@ -1,15 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Levyna</title>
-    <link rel="icon" href="./images/icons/lcon.svg">
-    <link rel="stylesheet" href="./styles/app.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
-    
+    <link rel="icon" href="./images/icons/lcon.svg" />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav__menu-mobile">
+        <h4 class="menu-mobile__title">Dream Home</h4>
+        <div class="menu-mobile__body">
+          <ul class="menu-mobile__list">
+            <li class="mobile-list__items">
+              <a href="#" class="mobile-list-links mobile-list-links--active"
+                >Home</a
+              >
+            </li>
+            <li class="mobile-list__items">
+              <a href="#" class="mobile-list-links">Service</a>
+            </li>
+            <li class="mobile-list__items">
+              <a href="#" class="mobile-list-links">Blog</a>
+            </li>
+            <li class="mobile-list__items">
+              <a href="#" class="mobile-list-links">About Us</a>
+            </li>
+            <li class="mobile-list__items">
+              <a href="#" class="mobile-list-links">Testimonial</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-mobile__links">
+          <a href="#" class="menu-mobile__link btn">Consultation</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="nav d-flex">
+          <div class="nav__left d-flex">
+            <div class="nav-left__logo">
+              <img src="./images/icons/lcon.svg" alt="Logo" />
+            </div>
+            <h1 class="nav-left__title">Levyna</h1>
+          </div>
+          <div class="nav__center">
+            <ul class="nav-center__list d-flex">
+              <li class="center-list__items">
+                <a href="#" class="center-list-links center-list-links--active"
+                  >Home</a
+                >
+              </li>
+              <li class="center-list__items">
+                <a href="#" class="center-list-links">Service</a>
+              </li>
+              <li class="center-list__items">
+                <a href="#" class="center-list-links">Blog</a>
+              </li>
+              <li class="center-list__items">
+                <a href="#" class="center-list-links">About Us</a>
+              </li>
+              <li class="center-list__items">
+                <a href="#" class="center-list-links">Testimonial</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__right">
+            <a href="#" class="nav-right__link d-flex btn">Consultation</a>
+            <div class="nav-right__menu">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="header__main">
+          <h2 class="header-main__title">
+            We are ready to help you in making your <span>Dream Home</span>
+          </h2>
+          <p class="header-main__description">
+            We try to understand as best we can because of your desire to
+            realize your dream home, of course with minimal costs but the best
+            quality possible
+          </p>
+          <a href="#" class="header-main__link">Let's start building</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="services">
+        <div class="container">
+          <div class="services__header">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <h4 class="services-header__title">
+                  The best service we offer to you
+                </h4>
+              </div>
+              <div class="col-12 col-lg-6">
+                <p class="services-header__content">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__main">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                <div class="services-main__box">
+                  <div class="services-main__box-img">
+                    <img src="images/service-image1.png" alt="product" />
+                  </div>
+                  <h6 class="services-main__box-title">Choose Interior</h6>
+                  <p class="services-main__box-description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a href="#" class="services-main__box-link services-main__box-link--active"
+                    >Contact Now<svg
+                      width="52"
+                      height="8"
+                      viewBox="0 0 52 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M51.3536 4.35355C51.5488 4.15829 51.5488 3.84171 51.3536 3.64645L48.1716 0.464466C47.9763 0.269204 47.6597 0.269204 47.4645 0.464466C47.2692 0.659728 47.2692 0.976311 47.4645 1.17157L50.2929 4L47.4645 6.82843C47.2692 7.02369 47.2692 7.34027 47.4645 7.53553C47.6597 7.7308 47.9763 7.7308 48.1716 7.53553L51.3536 4.35355ZM0 4.5H51V3.5H0V4.5Z"
+                        fill="#171717"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                <div class="services-main__box">
+                  <div class="services-main__box-img">
+                    <img src="images/service-image2.png" alt="product" />
+                  </div>
+                  <h6 class="services-main__box-title">Best Construction</h6>
+                  <p class="services-main__box-description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a href="#" class="services-main__box-link"
+                    >Contact Now<svg
+                      width="52"
+                      height="8"
+                      viewBox="0 0 52 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M51.3536 4.35355C51.5488 4.15829 51.5488 3.84171 51.3536 3.64645L48.1716 0.464466C47.9763 0.269204 47.6597 0.269204 47.4645 0.464466C47.2692 0.659728 47.2692 0.976311 47.4645 1.17157L50.2929 4L47.4645 6.82843C47.2692 7.02369 47.2692 7.34027 47.4645 7.53553C47.6597 7.7308 47.9763 7.7308 48.1716 7.53553L51.3536 4.35355ZM0 4.5H51V3.5H0V4.5Z"
+                        fill="#171717"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                <div class="services-main__box">
+                  <div class="services-main__box-img">
+                    <img src="images/service-image3.png" alt="product" />
+                  </div>
+                  <h6 class="services-main__box-title">Color Provider</h6>
+                  <p class="services-main__box-description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a href="#" class="services-main__box-link"
+                    >Contact Now<svg
+                      width="52"
+                      height="8"
+                      viewBox="0 0 52 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M51.3536 4.35355C51.5488 4.15829 51.5488 3.84171 51.3536 3.64645L48.1716 0.464466C47.9763 0.269204 47.6597 0.269204 47.4645 0.464466C47.2692 0.659728 47.2692 0.976311 47.4645 1.17157L50.2929 4L47.4645 6.82843C47.2692 7.02369 47.2692 7.34027 47.4645 7.53553C47.6597 7.7308 47.9763 7.7308 48.1716 7.53553L51.3536 4.35355ZM0 4.5H51V3.5H0V4.5Z"
+                        fill="#171717"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                <div class="services-main__box">
+                  <div class="services-main__box-img">
+                    <img src="images/service-image4.png" alt="product" />
+                  </div>
+                  <h6 class="services-main__box-title">Security Contract</h6>
+                  <p class="services-main__box-description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a href="#" class="services-main__box-link"
+                    >Contact Now<svg
+                      width="52"
+                      height="8"
+                      viewBox="0 0 52 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M51.3536 4.35355C51.5488 4.15829 51.5488 3.84171 51.3536 3.64645L48.1716 0.464466C47.9763 0.269204 47.6597 0.269204 47.4645 0.464466C47.2692 0.659728 47.2692 0.976311 47.4645 1.17157L50.2929 4L47.4645 6.82843C47.2692 7.02369 47.2692 7.34027 47.4645 7.53553C47.6597 7.7308 47.9763 7.7308 48.1716 7.53553L51.3536 4.35355ZM0 4.5H51V3.5H0V4.5Z"
+                        fill="#171717"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script src="./scripts/index.js"></script>
-</body>
+  </body>
 </html>
