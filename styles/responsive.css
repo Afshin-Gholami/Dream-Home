@@ -325,6 +325,9 @@
   .footer-main__form {
     flex-wrap: wrap;
   }
+  *{
+    cursor: none;
+  }
 }
 @media (max-width: 576px) {
   .nav-left__title {
